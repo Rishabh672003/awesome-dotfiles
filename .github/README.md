@@ -155,6 +155,10 @@ cd dotfiles && git submodule update --remote --merge
 > Copy config files
 
 ```sh
+cp -r config/awesome ~/.config/awesome
+```
+
+```sh
 cp -r config/* ~/.config/
 ```
 
