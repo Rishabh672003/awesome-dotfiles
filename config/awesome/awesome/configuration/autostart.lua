@@ -10,14 +10,13 @@ local function autostart_apps()
 	end)
 	--- Music Server
 	helpers.run.run_once_pgrep("mocicon")
-	helpers.run.run_once_pgrep("kdeconnect-indicator")
+	helpers.run.run_once_pgrep("mpDris2")
 	--- Polkit Agent
 	helpers.run.run_once_ps(
 		"polkit-gnome-authentication-agent-1",
 		"/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 	)
 	--- Other stuff
-	helpers.run.run_once_pgrep("redshift-gtk")
 	helpers.run.run_once_grep("blueman-applet")
 	helpers.run.run_once_grep("nm-applet")
 end

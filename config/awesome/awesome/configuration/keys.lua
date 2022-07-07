@@ -272,9 +272,9 @@ client.connect_signal("request::default_keybindings", function()
 		end),
 
 		--- Toggle titlebars (for focused client only)
-		-- awful.key({ mod }, "t", function(c)
-		-- 	decorations.cycle(c)
-		-- end, { description = "toggle titlebar", group = "client" }),
+		awful.key({ mod }, "t", function(c)
+			decorations.cycle(c)
+		end, { description = "toggle titlebar", group = "client" }),
 		--- Toggle titlebars (for all visible clients in selected tag)
 		awful.key({ mod, shift }, "t", function(c)
 			local clients = awful.screen.focused().clients
