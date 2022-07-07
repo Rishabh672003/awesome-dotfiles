@@ -43,10 +43,23 @@ awful.keyboard.append_global_keybindings({
 		awful.spawn(apps.default.file_manager)
 	end, { description = "open file manager", group = "app" }),
 
+	--default-web-browser
+	awful.key({ mod }, "b", function()
+		awful.spawn(apps.default.web_browser_1)
+	end, { description = "open web browser", group = "app" }),
+
 	--- Web browser
 	awful.key({ mod, shift }, "w", function()
-		awful.spawn(apps.default.web_browser)
+		awful.spawn(apps.default.web_browser_2)
 	end, { description = "open web browser", group = "app" }),
+
+	awful.key({ mod }, "t", function()
+		awful.spawn(apps.default.messenger)
+	end, { description = "open telegram", group = "app" }),
+
+	awful.key({ mod, shift }, "d", function()
+		awful.spawn(apps.default.pdf_viewer)
+	end, { description = "open evince", group = "app" }),
 
 	--- WM
 	--- ~~
