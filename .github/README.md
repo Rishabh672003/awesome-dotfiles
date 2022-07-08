@@ -149,7 +149,7 @@ systemctl --user start mpd.service
 
 ```sh
 git clone --recurse-submodules https://github.com/rxyhn/dotfiles.git
-cd dotfiles && git submodule update --remote --merge
+cd awesome-dotfiles && git submodule update --remote --merge
 ```
 
 > Copy config files
