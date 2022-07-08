@@ -28,6 +28,10 @@ awful.keyboard.append_global_keybindings({
 		awful.spawn(apps.default.terminal)
 	end, { description = "open terminal", group = "app" }),
 
+	awful.key({ mod }, "grave", function()
+		awful.spawn(apps.default.quaketerminal)
+	end, { description = "open terminal", group = "app" }),
+
 	--- App launcher
 	awful.key({ mod }, "d", function()
 		awful.spawn.with_shell(apps.default.app_launcher)
@@ -45,7 +49,7 @@ awful.keyboard.append_global_keybindings({
 
 	--default-web-browser
 	awful.key({ mod }, "b", function()
-		awful.spawn(apps.default.web_browser_1)
+		awful.spawn(apps.default.web_browser)
 	end, { description = "open web browser", group = "app" }),
 
 	--- Web browser
@@ -156,9 +160,9 @@ awful.keyboard.append_global_keybindings({
 	--- Hotkeys
 	--- ~~~~~~~
 	--- Music player
-	awful.key({ mod }, "grave", function()
-		awful.spawn.with_shell(apps.default.music_player)
-	end, { description = "open music client", group = "hotkeys" }),
+	-- awful.key({ mod }, "grave", function()
+	-- 	awful.spawn.with_shell(apps.default.music_player)
+	-- end, { description = "open music client", group = "hotkeys" }),
 
 	--- Brightness Control
 	awful.key({}, "XF86MonBrightnessUp", function()
