@@ -12,7 +12,7 @@ return {
 
 		--- Github activity
 		github = {
-			username = "rxyhn",
+			username = "Rishabh672003",
 		},
 	},
 }
