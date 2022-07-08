@@ -6,13 +6,14 @@ return {
 	--- Default Applications
 	default = {
 		--- Default terminal emulator
+		quaketerminal = "tilix -q",
 		terminal = "alacritty",
 		--- Default music client
 		music_player = "wezterm start --class music ncmpcpp",
 		--- Default code editor
 		code_editor = "alacritty -e nvim",
 		--- Default web browser
-		web_browser_1 = "brave",
+		web_browser = "brave",
 		web_browser_2 = "firefox",
 		--- Default file manager
 		file_manager = "nautilus",
