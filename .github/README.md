@@ -290,6 +290,20 @@ EndSection
 
 </details>
 
+<!-- Aesthetic Night Colorscheme -->
+
+## :art: ‎ <samp>Colorscheme</samp>
+
+<a href="#--------"><img src="assets/aesthetic-night.png" width="500px" alt="colorscheme preview"></a>
+
+Introducing the Aesthetic Night colorscheme!
+
+Beautiful and elegant color scheme, perfect for programmers who live in the middle of the night.
+
+With the neat color combination that it can keep the eyes from getting tired! so you can keep writing code and continue all your work all night!
+
+This colorscheme is used for all aspects in these dotfiles, yeeaaaah this aesthetic dotfiles is combined with an aesthetic colorscheme <3
+
 <!-- GALLERY -->
 
 ## :ocean: ‎ <samp>Gallery</samp>
