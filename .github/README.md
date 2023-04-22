@@ -1,3 +1,5 @@
+# I don't use this now, I have switched to hyprland here are dotfiles for those https://github.com/Rishabh672003/dotfiles 
+
 <!-- DOTFILES BANNER -->
 <div align="center">
    <a href="#--------">
